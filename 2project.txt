@@ -1,0 +1,43 @@
+print("WELCOME TO THE PATTERN GENRATOR AND NUMBER ANALYSER")
+
+print("select an option")
+print("1 generate and pattern")
+print("2 analyser a range of numbers")
+print("3 exit")
+
+choice = int(input("enter a choice: "))
+while(True):
+       
+
+
+
+   if choice == int(1):
+        no_rows = int(input("enter the number of rows for the pattern:  "))
+
+
+        for i in range(no_rows):
+           for j in range(i + 1):
+              
+              print("* ", end="")
+           print()
+
+   if choice == int(2):
+      start_range = int(input("enter the start of the range: "))
+      end_range = int(input("enter the end of the range:  "))
+
+      sum = 0
+      for i in range(start_range,end_range):
+         sum = i  
+         if i % 2 == 0:
+           print("number",i, "is even" )
+         else:
+           print("number" ,i, "is odd" )   
+      
+              
+           
+            
+      print("sum of all numbers from", start_range , "to", end_range , "is",sum )     
+   if choice == int(3):
+       break
+   else:
+      print("you entered invalid number")
