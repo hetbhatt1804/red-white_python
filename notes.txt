@@ -1,0 +1,2 @@
+This content is written using 'w+' mode.
+This is appended using 'a+' mode.

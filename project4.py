@@ -1,0 +1,5 @@
+print(type(5))
+print(type(9.9))
+print(type("hello world"))
+print(type(30>20))
+print(type(2+2j))
